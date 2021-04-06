@@ -14,7 +14,7 @@ color="black";
 ctx.beginPath();
 ctx.strokeStyle=color;
 ctx.lineWidth=2;
-ctx.arc(210,200,100,0,2* Math.PI);
+ctx.arc(400,200,100,0,2* Math.PI);
 ctx.stroke();
 
 color="red";
@@ -22,7 +22,7 @@ color="red";
 ctx.beginPath();
 ctx.strokeStyle=color;
 ctx.lineWidth=2;
-ctx.arc(220,200,100,0,2* Math.PI);
+ctx.arc(600,200,100,0,2* Math.PI);
 ctx.stroke();
 
 color="yellow";
@@ -30,7 +30,7 @@ color="yellow";
 ctx.beginPath();
 ctx.strokeStyle=color;
 ctx.lineWidth=2;
-ctx.arc(205,210,100,0,2* Math.PI);
+ctx.arc(300,400,100,0,2* Math.PI);
 ctx.stroke();
 
 color="green";
@@ -38,5 +38,5 @@ color="green";
 ctx.beginPath();
 ctx.strokeStyle=color;
 ctx.lineWidth=2;
-ctx.arc(215,210,100,0,2* Math.PI);
+ctx.arc(500,400,100,0,2* Math.PI);
 ctx.stroke();
